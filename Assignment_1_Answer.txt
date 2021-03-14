@@ -1,0 +1,94 @@
+1. What are the differences between operators and values in the following? 
+
+Answer 1:
+
+	* (This is multiplication operator)
+
+	'hello' (This is string value)
+
+	-87.8 (This is integer value)
+
+	- (This is substraction operator)
+
+	/ (This is division operator)
+
+	+ (This is addition operator)
+
+	6 (This is integer value)
+
+ 
+
+2. What is the difference between string and variable? 
+
+Answer 2:
+	spam (This is a variable)
+	'spam' (This is a string)
+
+ 
+
+3. Describe three different data forms. 
+
+Answer 3:
+	i) str (the value represents a string data type. e.g s = "python")
+   ii) int (the value represents an Integer data type. e.g i = 3)
+  iii) float (the value represents a floating-point number. e.g f = 4.5) 
+ 
+
+4. What makes up an expression? What are the functions of all expressions? 
+
+Answer 4:
+	In Python expression is something, that evaluates to a value.
+
+ 
+
+5. In this chapter, assignment statements such as spam = 10 were added. What's the difference between a declaration and an expression? 
+
+Answer 5:
+	when we decalre a variable to be of certain data type it's called declaration. But there is no concept of declaration in python.
+	An expression evaluates to a value.
+
+
+6. After running the following code, what does the variable bacon contain? 
+
+bacon = 22 
+
+bacon + 1 
+
+Answer 6:
+	The variable bacon contains value 22
+ 
+ 
+
+7. What should the values of the following two terms be? 
+
+'spam' + 'spamspam'
+'spam' * 3
+
+Answer 7: 
+	'spamspamspam'
+	'spamspamspam'
+
+ 
+
+8. Why is it that eggs is a true variable name but 100 is not? 
+
+Answer 8:
+	
+
+ 
+
+9. Which of the following three functions may be used to convert a value to an integer, a floating-point number, or a string? 
+
+Answer 9:
+	int()
+	float()
+	str()
+ 
+10. What is the error caused by this expression? What would you do about it? 
+
+'I have eaten ' + 99 + ' burritos.' 
+
+Answer 10:
+	What is the error caused by this expression - TypeError: can only concatenate str (not "int") to str.
+
+	What would you do about it - to resolve this error I would make 99 as string instead of int by putting single quote ('99') or double quote ("99") around it.
